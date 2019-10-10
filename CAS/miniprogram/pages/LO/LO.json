@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "CAS Aims",
+  "usingComponents": {
+    "wux-fab-button": "../../dist/fab-button/index"
+  }
+}
+

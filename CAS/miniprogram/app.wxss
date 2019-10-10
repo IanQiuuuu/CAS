@@ -1,0 +1,9 @@
+/**app.wxss**/
+page{
+  font-family: Microsoft yahei;
+  font-size: 28rpx;
+  color: silver;
+  background: white;
+}
+@import './style/animate.wxss';
+

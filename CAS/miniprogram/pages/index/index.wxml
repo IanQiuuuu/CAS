@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<swiper class='swiper' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item class="slide-image">
+      <image src="{{item}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='choose'>
+  <view class='title'>What is CAS</view>
+  <view class='select'>
+   <!--Nature of CAS-->
+   <view class='selected' bindtap="toNOC">
+    <image src='cloud://clouddatabase-fofck.636c-clouddatabase-fofck/image/creativity.jpg'></image>
+    <view class='subTitle'>Nature of CAS</view>
+   </view>
+
+   <!--Learning outcomes-->
+   <view class='selected' bindtap="tolearnOutcome">
+    <image src='cloud://clouddatabase-fofck.636c-clouddatabase-fofck/image/learningoutcomes.png'></image>
+    <view class='subTitle'>Learning Outcomes</view>
+   </view>
+
+   <!--Experiences-->
+   <view class='selected' bindtap="toExperiences">
+    <image src='cloud://clouddatabase-fofck.636c-clouddatabase-fofck/image/experience.png'></image>
+    <view class='subTitle'>CAS Experiences</view>
+   </view>
+
+   <!--CAS aims-->
+   <view class='selected' bindtap="toAims">
+    <image src='cloud://clouddatabase-fofck.636c-clouddatabase-fofck/image/casaims.jpg'></image>
+    <view class='subTitle'>CAS Aims</view>
+   </view>
+  </view>
+</view>
+
+<view class='info' style="position:fixed;bottom:0;">Designed by IanQiu</view>
+

@@ -1,0 +1,20 @@
+<view class="container">
+  <swiper class="page">
+   <block wx:for='{{List}}'>
+   <swiper-item class="card">
+    <image src='{{item.img}}'></image>
+    <view class='title'>
+    <text class='title1'>{{item.title1}}</text>
+    <text class='title2'>{{item.title2}}</text>
+    <text class='title3'>{{item.title3}}</text>
+    </view>
+    <view class='text'>{{item.text1}}</view>
+    <view class='text'>{{item.text2}}</view>
+    <view class='text'>{{item.text3}}</view>
+    <view class='text'>{{item.text4}}</view>
+    
+   </swiper-item>
+   </block>
+  </swiper>
+</view>
+

@@ -1,0 +1,17 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/scrollableTabView/scrollableTabView",
+    "pages/aims/aims",
+    "pages/experience/experience",
+    "pages/LO/LO"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "CAS",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

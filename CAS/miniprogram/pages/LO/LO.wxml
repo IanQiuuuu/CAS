@@ -1,0 +1,20 @@
+<!--pages/NOC/NOC.wxml-->
+
+<view class='body'>
+ <wux-fab-button position="topRight" theme="royal" direction="vertical" reverse="reverse" spaceBetween="10"  buttons="{{ buttons }}"  bind:click="onClick" />
+ <view class='text'>
+  <view class='title'>{{ title }}</view>
+  <view class='main'>{{ main }}</view>
+ </view>
+<!--
+<view class='icons'>
+ <view class='{{ index==defaultIndex ? "selected active" : "selected" }}' wx:for="{{ imgList }}" bindtap="pick" data-index='{{index}}' data-defaultIndex='{{ defaultIndex }}'>  
+     <view class='{{ index==defaultIndex ? "img active" : "img" }}'>
+      <image src='{{ item.image }}'></image> 
+     </view>    
+   </view>
+</view>
+-->
+</view>
+
+
